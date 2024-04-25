@@ -1,0 +1,42 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: aqua;
+    color: white;
+    padding: 20px;
+}
+header h1{
+    margin: 0;
+    font-size: 25px;
+}
+nav{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: aqua;
+    color: black;
+}
+main{
+    max-width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: justify;
+}
+section{
+    margin-bottom: 20px;
+}
