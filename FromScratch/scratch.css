@@ -1,0 +1,137 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Making sure images and other elements don't extend beyond their container */
+img, video, iframe, embed, object, audio {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styling the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Styling the navigation */
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Styling the main content */
+.main {
+    padding: 20px;
+}
+
+/* Clearing floats */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Styling the cards */
+.card {
+    margin: 20px 0;
+    width: calc(50% - 20px); /* 50% width with margin */
+    float: left; /* Float the cards left */
+    margin: 10px; /* Adjust margin for spacing */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden; /* Ensure content inside the card doesn't overflow */
+}
+
+.card img {
+    width: 100%;
+    height: 800px; /* Set a fixed height for the images */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire space */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card h2 {
+    padding: 10px 20px;
+}
+
+.card p {
+    padding: 0 20px 20px;
+}
+.card1 {
+    text-align: center; /* Align the contents of the card to the center */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    width: 60%; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the card horizontally */
+ /*   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+}
+
+.card1 iframe {
+    width: 100%; /* Ensure the video fills the container width */
+    height: auto; /* Allow the height to adjust proportionally */
+    display: block; /* Ensure the video is displayed as a block element */
+    margin: 0 auto; /* Center the video horizontally */
+    padding: auto;
+    padding: auto;
+}
+
+.card1 iframe {
+    width: 100%; /* Make the iframe fill the entire width of the card */
+    height: auto; /* Allow the height to adjust proportionally */
+    max-height: 70vh; /* Limit the maximum height of the iframe to 70% of the viewport height */
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: auto;
+    margin: auto;
+    text-decoration: #333 ;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer {
+    text-align: center; /* Align the content to the center */
+    background-color: #f9f9f9; /* Background color for the footer */
+    padding: 20px; /* Add padding for spacing */
+}
+
+footer a {
+    display: inline-block; /* Display the icons in a row */
+    margin: 0 10px; /* Add margin for spacing between icons */
+}
+
+footer img {
+    width: 40px; /* Set the width of the icons */
+    height: 40px; /* Set the height of the icons */
+    object-fit: cover; /* Ensure the icons maintain aspect ratio */
+    float: left; /* Float the icons to the left */
+}
+.p_one {
+    margin: 25px; /* Add margin for spacing around the paragraph */
+    padding: 10px; /* Add padding inside the paragraph */
+    background-color: #f9f9f9; /* Optional: Add a background color for visual clarity */
+}
+
+

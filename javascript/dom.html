@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom practise</title>
+</head>
+<body>
+    Farhreineit: <input type="number" id="far">
+    <p id="p1">Changeble texts</p>
+    <button id="btn1">Change text</button>
+
+    <script>
+        var btn = document.getElementById('btn1');
+
+        function Change_text(){
+            var txt = document.getElementById('p1');
+            txt.innerText = 'Here I am after collection' ;
+        }
+        btn.addEventListener('click', Change_text);
+
+        var btn = document.getElementById('btn1');
+        
+ /*       function Calc(){
+            var input1 = document.getElementById('far');
+            var celsius = input1 * 2;
+            input1.innerText = Celsius;
+        }
+        btn.addEventListener('click','Calc');
+        console.log('Celsius', celsius);*/
+    </script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #sec2 {
+    background-color: mintcream; /* Cute background color */
+    text-align: center; /* Align items in the center */
+    padding: 50px 0; /* Add padding for spacing */
+}
+
+.container {
+    display: inline-block; /* Ensure container shrinks to fit content */
+}
+
+.card1 {
+    background-color: #fff; /* Card background color */
+    border-radius: 10px; /* Rounded corners for the card */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    padding: 20px; /* Add padding for spacing inside the card */
+}
+
+.card1 h2 {
+    margin-bottom: 20px; /* Add margin below the heading */
+}
+
+#player {
+    width: 100%; /* Make the video fill the container width */
+    max-width: 600px; /* Limit the maximum width of the video */
+    height: auto; /* Allow the height to adjust proportionally */
+    display: block; /* Ensure the video is displayed as a block element */
+    margin: 0 auto; /* Center the video horizontally */
+}
+
+    </style>
+    <link rel="stylesheet" href="./scratch.css">
+</head>
+<body>
+    <section>
+        <div>
+            <nav class="nav">
+                <ul id="ul1">
+                    <li><a href="./index.html">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section id="sec2">
+        <section>
+            <h2>Contacts us</h2>
+            <div>
+                <div class="card1">
+                    
+                    <iframe id="player" src="./video/video for my website.mp4"></iframe>
+                  </div>
+            </div>
+        </section>
+        <section>
+            <form action="">
+                <form action="#" method="post">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required><br>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br>
+                    </div>
+                    <div>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required><br>
+                    </div>
+                    <div>
+                        <label for="message">Message (max 500 words):</label><br>
+                        <textarea id="message" name="message" rows="6" maxlength="500" required></textarea><br>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+                
+            </form>
+        </section>
+        <div>
+            <h2>Contact Us through the following channels</h2>
+            <p>
+                Email: <a href="mailto: dicksonfredy@mailfence.com">dicksonfredy@mailfence.com</a><br><br>
+                Phone: +255 613 176 484
+            </p>
+        </div>
+    </section>
+</body>
+</html>
